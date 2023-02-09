@@ -1,0 +1,38 @@
+.menu {
+    position: fixed;
+    top: 2%;
+    left: 0;
+    right: 0;
+    height: 3%;
+    padding: 1rem;
+    color: white;
+    background: teal;
+    font-weight: bold;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.ul1 {
+    list-style: none;
+    background-color: tomato;
+    overflow: hidden;
+    margin-right: 720px;
+    padding: 0;
+  }
+  .ul1 li {
+    float: left;
+    border-right: 1px solid #fff;
+  }
+  .ul1 li:last-child {
+    border-right: none;
+  }
+  .ul1 li a {
+    text-decoration: none;
+    text-align: center;
+    padding: 10px;
+    display: block;
+    color: #333;
+    font-size: 12px;
+    font-weight: bold;
+  }
