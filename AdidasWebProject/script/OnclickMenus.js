@@ -28,13 +28,3 @@ function OnClickSports() {
     var posTop = (page-1) * $(window).height();
 	$html.animate({scrollTop : posTop});
 }
-
-var best = document.getElementsByClassName("logo")[0];
-
-function OnMouseOverLogo() {
-    best.setAttribute("src", "../img/adidaslogo_hover.jpg")
-}
-
-function OnMouseLeaveLogo() {
-    best.setAttribute("src", "../img/adidaslogo.jpg")
-}
