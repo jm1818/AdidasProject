@@ -1,9 +1,9 @@
-/* 1번째 슬라이드 이미지 */
-.content-warp-1 {
+.content-warp {
     width: 100%;
     position: relative;
 }
 
+/* 1번째 슬라이드 이미지 */
 .imgSlide1 {
     width: 1920px;
     height: 900px;
@@ -17,6 +17,7 @@
     transform: translate(-50%, -50%);
     font-size: 40px;
     color: #fff;
+    user-select: none;
 }
 
 .content-text-p-1 {
@@ -26,14 +27,11 @@
     transform: translate(-50%, -50%);
     font-size: 17px;
     color: #fff;
+    user-select: none;
 }
 /* ---------------------------------------- */
 
 /* 2번째 슬라이드 이미지 */
-.content-warp-2 {
-    width: 100%;
-    position: relative;
-}
 
 .imgSlide2 {
     width: 1920px;
@@ -48,6 +46,7 @@
     transform: translate(-50%, -50%);
     font-size: 40px;
     color: #fff;
+    user-select: none;
 }
 
 .content-text-p-2 {
@@ -57,5 +56,6 @@
     transform: translate(-50%, -50%);
     font-size: 17px;
     color: #fff;
+    user-select: none;
 }
 /* ---------------------------------------- */
