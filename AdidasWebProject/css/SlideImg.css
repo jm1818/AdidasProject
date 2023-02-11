@@ -1,0 +1,61 @@
+/* 1번째 슬라이드 이미지 */
+.content-warp-1 {
+    width: 100%;
+    position: relative;
+}
+
+.imgSlide1 {
+    width: 1920px;
+    height: 900px;
+    margin-top: 3%;
+}
+
+.content-text-h1-1 {
+    position: absolute;
+    top: 40%;
+    left: 26.5%;
+    transform: translate(-50%, -50%);
+    font-size: 40px;
+    color: #fff;
+}
+
+.content-text-p-1 {
+    position: absolute;
+    top: 45%;
+    left: 24.5%;
+    transform: translate(-50%, -50%);
+    font-size: 17px;
+    color: #fff;
+}
+/* ---------------------------------------- */
+
+/* 2번째 슬라이드 이미지 */
+.content-warp-2 {
+    width: 100%;
+    position: relative;
+}
+
+.imgSlide2 {
+    width: 1920px;
+    height: 900px;
+    margin-top: 3%;
+}
+
+.content-text-h1-2 {
+    position: absolute;
+    top: 40%;
+    left: 26.5%;
+    transform: translate(-50%, -50%);
+    font-size: 40px;
+    color: #fff;
+}
+
+.content-text-p-2 {
+    position: absolute;
+    top: 45%;
+    left: 24.5%;
+    transform: translate(-50%, -50%);
+    font-size: 17px;
+    color: #fff;
+}
+/* ---------------------------------------- */
