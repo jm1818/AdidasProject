@@ -6,25 +6,25 @@ function OnClickLogo() {
 
 function OnClickMen() {
     // console.log("OnClickMen")
-    page = 2;
-    var posTop = (page-1) * $(window).height();
-	$html.animate({scrollTop : posTop});
-}
-
-function OnClickWomen() {
     page = 3;
     var posTop = (page-1) * $(window).height();
 	$html.animate({scrollTop : posTop});
 }
 
-function OnClickKids() {
+function OnClickWomen() {
     page = 4;
     var posTop = (page-1) * $(window).height();
 	$html.animate({scrollTop : posTop});
 }
 
-function OnClickSports() {
+function OnClickKids() {
     page = 5;
+    var posTop = (page-1) * $(window).height();
+	$html.animate({scrollTop : posTop});
+}
+
+function OnClickSports() {
+    page = 6;
     var posTop = (page-1) * $(window).height();
 	$html.animate({scrollTop : posTop});
 }

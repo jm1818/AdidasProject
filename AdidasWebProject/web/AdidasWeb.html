@@ -6,30 +6,46 @@
     <script src="../script/OnclickMenus.js"></script>
     <script src="../lib/jquery-3.6.3.min.js"></script>
 </head>
-<body>
+<body oncontextmenu="return false;">
+    <!-- Main 1 -->
     <div class="content">
-        <div class="content-warp">
-            <div>
-                <img src="../img/imgSlide1.png" class="imgSlide1">
+        <div class="slider-1">
+            <div class="content-warp slides">
+                <div class="active">
+                    <img src="../img/imgSlide1.png" class="imgSlide1">
+                    <!-- <div>
+                        <h1 class="content-text-h1-1">ADIDAS SPORTSWEAR</h1>
+                        <p class="content-text-p-1">스타일로 완성하는 스포츠 DNA. TIRO & AVRYN</p>
+                    </div> -->
+                </div>
             </div>
-            <div>
-                <h1 class="content-text-h1-1">ADIDAS SPORTSWEAR</h1>
-                <p class="content-text-p-1">스타일로 완성하는 스포츠 DNA. TIRO & AVRYN</p>
+            <div class="content-warp slides">
+                <div>
+                    <img src="../img/imgSlide2.jpg" class="imgSlide2">
+                </div>
+                <!-- <div>
+                    <h1 class="content-text-h1-2">ADIDAS SPORTSWEAR</h1>
+                    <p class="content-text-p-2">스타일로 완성하는 스포츠 DNA. TIRO & AVRYN</p>
+                </div> -->
+            </div>
+
+            <div class="page-btns">
+                <div class="active"></div>
+                <div></div>
+            </div>
+            <div class="side-btns">
+                <div>
+                    <span>&#9664;<i class="fas fa-angle-left"></i></span>
+                </div>ㄴ
+                <div>
+                    <span>&#9654;<i class="fas fa-angle-right"></i></span>
+                </div>
             </div>
         </div>
 
-        <!-- <div class="content-warp">
-            <div>
-                <img src="../img/imgSlide2.jpg" class="imgSlide2">
-            </div>
-            <div>
-                <h1 class="content-text-h1-2">ADIDAS SPORTSWEAR</h1>
-                <p class="content-text-p-2">스타일로 완성하는 스포츠 DNA. TIRO & AVRYN</p>
-            </div>
-        </div> -->
         
         <header class="menu">
-                <img src="../img/adidaslogo.jpg" onclick="OnClickLogo()" class="logo">
+            <img src="../img/adidaslogo.jpg" onclick="OnClickLogo()" class="logo">
             <ul class="ul1">
                 <li><span onclick="OnClickMen()">MEN</span></li>
                 <li><span onclick="OnClickWomen()">WOMEN</span></li>
@@ -38,8 +54,10 @@
               </ul>
         </header>
     </div>
+
+    <!-- Main 2 -->
     <div class="content">
-        <iframe width="1680" height="600" src="https://www.youtube.com/embed/oKB-2Ny824k?controls=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen="" style="margin-top: 0.8%;"></iframe>
+        <iframe width="1680" height="600" src="https://www.youtube.com/embed/oKB-2Ny824k?rel=0&amp;autoplay=1&mute=1&amp;playlist=oKB-2Ny824k&loop=1;" frameborder="0" style="margin-top: 3.5%;"></iframe>
         <header class="menu">
             <img src="../img/adidaslogo.jpg" onclick="OnClickLogo()" class="logo">
             <ul class="ul1">
@@ -50,6 +68,22 @@
             </ul>
         </header>
     </div>
+
+    <!-- MEN -->
+    <div class="content">
+        <h1>MEN</h1>
+        <header class="menu">
+            <img src="../img/adidaslogo.jpg" onclick="OnClickLogo()" class="logo">
+            <ul class="ul1">
+                <li><span onclick="OnClickMen()">MEN</span></li>
+                <li><span onclick="OnClickWomen()">WOMEN</span></li>
+                <li><span onclick="OnClickKids()">KIDS</span></li>
+                <li><span onclick="OnClickSports()">SPORTS</span></li>
+            </ul>
+        </header>
+    </div>
+
+    <!-- WOMEN -->
     <div class="content">
         <h1>WOMEN</h1>
         <header class="menu">
@@ -62,6 +96,8 @@
             </ul>
         </header>
     </div>
+
+    <!-- KIDS -->
     <div class="content">
         <h1>KIDS</h1>
         <header class="menu">
@@ -74,6 +110,8 @@
             </ul>
         </header>
     </div>
+
+    <!-- SPORTS -->
     <div class="content">
         <h1>SPORTS</h1>
         <header class="menu">
@@ -91,9 +129,15 @@
 
 </footer>
 </html>
+
+<!-- css -->
 <link href="../css/ScrollContents.css" rel="stylesheet" type="text/css" />
 <link href="../css/LogoSize.css" rel="stylesheet" type="text/css" />
 <link href="../css/MenuFasten.css" rel="stylesheet" type="text/css" />
 <link href="../css/SlideImg.css" rel="stylesheet" type="text/css" />
+<link href="../css/Slider.css" rel="stylesheet" type="text/css" />
+<link href="../css/GlobalCSS.css" rel="stylesheet" type="text/css" />
+<!-- script -->
 <script src="../script/ScrollContents.js"></script>
 <script src="../script/ChangeContentValue.js"></script>
+<script src="../script/Slider.js"></script>

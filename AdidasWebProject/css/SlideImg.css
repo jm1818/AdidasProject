@@ -8,6 +8,7 @@
     width: 1920px;
     height: 900px;
     margin-top: 3%;
+    -webkit-user-drag: none;
 }
 
 .content-text-h1-1 {
@@ -37,6 +38,7 @@
     width: 1920px;
     height: 900px;
     margin-top: 3%;
+    -webkit-user-drag: none;
 }
 
 .content-text-h1-2 {

@@ -25,3 +25,8 @@ $(window).on("wheel", function(e){
 	$html.animate({scrollTop : posTop});
  
 });
+
+// 윈도우가 열릴 시, Main 1 창으로 이동
+$(document).ready(function() {
+	OnClickLogo();
+});
