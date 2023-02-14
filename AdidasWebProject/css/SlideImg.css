@@ -3,13 +3,13 @@
     position: relative;
 }
 
-/* 1번째 슬라이드 이미지 */
-.imgSlide1 {
-    width: 1920px;
-    height: 900px;
-    margin-top: 3%;
+.imgSlide {
+    width: 1700px;
+    height: 870px;
+    margin-top: 4.1%;
 }
 
+/* 1번째 슬라이드 이미지 */
 .content-text-h1-1 {
     position: absolute;
     top: 40%;
@@ -33,13 +33,6 @@
 /* ---------------------------------------- */
 
 /* 2번째 슬라이드 이미지 */
-
-.imgSlide2 {
-    width: 1920px;
-    height: 900px;
-    margin-top: 3%;
-}
-
 .content-text-h1-2 {
     position: absolute;
     top: 40%;
@@ -56,6 +49,29 @@
     left: 24.5%;
     transform: translate(-50%, -50%);
     font-size: 17px;
+    color: #fff;
+    user-select: none;
+}
+/* ---------------------------------------- */
+
+/* 3번째 슬라이드 이미지 */
+.content-text-h1-3 {
+    position: absolute;
+    top: 40%;
+    left: 6%;
+    transform: translate(0, 250px);
+    font-size: 60px;
+    color: #fff;
+    user-select: none;
+    font-weight: bold
+}
+
+.content-text-p-3 {
+    position: absolute;
+    top: 40%;
+    left: 6.3%;
+    transform: translate(0, 350px);
+    font-size: 20px;
     color: #fff;
     user-select: none;
 }
